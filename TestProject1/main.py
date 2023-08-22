@@ -3,7 +3,7 @@
 def cf(x, y):
     return x ** y
 
-    
+
 
 
 while True:
@@ -32,8 +32,8 @@ while True:
     elif choice == '3':
         print("結果：", multiply(num1, num2))
     elif choice == '4':
-        print("結果：", cf(num1, num2))
-    elif choice == '5':
         print("結果：", divide(num1, num2))
+    elif choice == '5':
+        print("結果：", cf(num1, num2))
     else:
         print("輸入無效")
